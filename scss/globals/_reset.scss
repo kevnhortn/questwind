@@ -1,0 +1,35 @@
+@use "../globals/colors";
+
+html {
+	font-size: 100%;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+	padding: 0;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	background-color: colors.$background-color;
+	-webkit-font-smoothing: antialiased;
+}
+
+a,
+p,
+h1,
+h2,
+h3,
+h4 {
+	margin: 0;
+}
+
+img {
+	margin: 0;
+}

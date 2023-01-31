@@ -1,0 +1,80 @@
+@forward "reset";
+@use "../globals/colors";
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@400;600;800&display=swap");
+
+$heading-font: "Syne", "Gill Sans", "Gill Sans MT", sans-serif;
+$paragraph-font: "Syne", "Gill Sans", "Gill Sans MT", sans-serif;
+
+h1,
+h2,
+h3 {
+	font-family: $heading-font;
+	color: colors.$font-color-dark;
+}
+
+h1 {
+	font-size: 4rem;
+	font-weight: 800;
+}
+
+h2 {
+	font-size: 3rem;
+	font-weight: 400;
+}
+
+h3 {
+	font-size: 2rem;
+	font-weight: 400;
+}
+
+p {
+	font-family: $paragraph-font;
+	font-size: 1.25rem;
+	color: colors.$font-color-light;
+}
+
+a {
+	font-family: $paragraph-font;
+	text-decoration: none;
+	color: colors.$font-color-dark;
+	position: relative;
+}
+
+.underline {
+	display: grid;
+	justify-self: center;
+	padding-bottom: 0.25rem;
+	font-weight: 600;
+	align-self: start;
+	text-transform: lowercase;
+}
+
+.underline::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 1px;
+	width: 100%;
+	background-color: colors.$font-color-dark;
+	transform-origin: 0% 50%;
+	transform: translate(0px, 0px);
+	transition: color 300ms ease-in-out;
+}
+
+.underline:hover ~ .underline:hover::before {
+	color: colors.$orange;
+}
+
+.copy-txt {
+	font-family: $paragraph-font;
+}
+
+ul li {
+	list-style: none;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
