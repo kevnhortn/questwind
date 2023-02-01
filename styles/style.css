@@ -135,7 +135,7 @@ ul {
     width: 100%;
     display: grid;
     position: relative;
-    padding: 0 1rem;
+    padding: 0 1.5rem;
     align-items: center;
     height: 6rem;
   }
@@ -150,10 +150,16 @@ ul {
   .grid .project-nav-container .project-nav-wrapper .hamburger-icon {
     width: 2rem;
   }
+  .grid .soft-txt {
+    color: #8f8f8f;
+    font-weight: 400;
+    font-size: 1.15rem;
+    line-height: 1.75rem;
+  }
   .grid .project-header {
     display: grid;
     width: 100%;
-    padding: 0 1rem;
+    padding: 0 1.5rem;
   }
   .grid .project-header .project-heading {
     font-size: 2.75rem;
@@ -173,6 +179,36 @@ ul {
     font-size: 1.5rem;
     font-weight: 600;
     line-height: 2rem;
+    margin-bottom: 2.5rem;
+  }
+  .grid .project-body-container {
+    width: 100%;
+    margin: 5rem 0;
+  }
+  .grid .project-body-container .project-body {
+    padding: 0 1.5rem;
+  }
+  .grid .project-body-container .project-body .top-img {
+    width: 100%;
+    margin-bottom: 5rem;
+  }
+  .grid .project-body-container .project-body .bigger-subheading {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 2.5rem;
+    margin-bottom: 5rem;
+  }
+  .grid .project-body-container .project-body .bold {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  .grid .project-body-container .project-body .soft-txt {
+    padding-bottom: 2rem;
+  }
+  .grid .project-body-container .project-body .btn-wrapper {
+    display: grid;
+    justify-content: start;
   }
   .grid__main {
     display: flex;
