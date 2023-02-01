@@ -138,13 +138,94 @@
 				.content-wrapper {
 					width: 100%;
 
+					.bold:first-of-type {
+						margin-top: 2.5rem;
+					}
+
 					ul {
 						display: grid;
 						gap: 0.5rem;
+						margin-bottom: 2.5rem;
 					}
 
 					ul li {
 						font-size: 1.25rem;
+						color: colors.$orange;
+					}
+				}
+			}
+		}
+
+		.project-footer-container {
+			width: 100%;
+			background-color: colors.$font-color-dark;
+
+			.footer-txt,
+			.footer-heading-r,
+			a,
+			small {
+				color: white;
+			}
+
+			.footer-wrapper {
+				display: flex;
+				flex-direction: column;
+				padding: 5rem 1.5rem 2.5rem;
+
+				.top-footer-row {
+					display: flex;
+					flex-direction: column;
+					gap: 2.5rem;
+					border-bottom: 2px solid white;
+
+					.left {
+						display: flex;
+						flex-direction: column;
+						gap: 2.5rem;
+
+						.footer-heading {
+							font-size: 1.15rem;
+							text-transform: uppercase;
+							font-weight: 600;
+							color: colors.$tea;
+						}
+
+						.footer-txt {
+							line-height: 1.75rem;
+						}
+					}
+
+					.right {
+						display: flex;
+						flex-direction: column;
+						margin-bottom: 2.5rem;
+						gap: 1rem;
+
+						.footer-heading-r {
+							font-size: 1.7rem;
+						}
+					}
+				}
+
+				.bottom-footer-row {
+					display: flex;
+					flex-direction: column;
+					margin-top: 2.5rem;
+					gap: 2.5rem;
+
+					.agency-name {
+						font-size: 2rem;
+						color: colors.$tea;
+						margin-bottom: 0.5rem;
+					}
+
+					small {
+						font-size: 1rem;
+					}
+
+					.footer-social-list {
+						display: flex;
+						gap: 1rem;
 					}
 				}
 			}

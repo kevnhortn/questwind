@@ -70,7 +70,8 @@ a {
 	font-family: $paragraph-font;
 }
 
-ul li {
+ul li,
+small {
 	list-style: none;
 	font-family: $paragraph-font;
 }
