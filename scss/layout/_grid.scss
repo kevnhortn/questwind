@@ -134,6 +134,19 @@
 						width: 100%;
 					}
 				}
+
+				.content-wrapper {
+					width: 100%;
+
+					ul {
+						display: grid;
+						gap: 0.5rem;
+					}
+
+					ul li {
+						font-size: 1.25rem;
+					}
+				}
 			}
 		}
 

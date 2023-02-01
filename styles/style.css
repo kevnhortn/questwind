@@ -100,6 +100,7 @@ a {
 
 ul li {
   list-style: none;
+  font-family: "Syne", "Gill Sans", "Gill Sans MT", sans-serif;
 }
 
 ul {
@@ -219,6 +220,16 @@ ul {
   }
   .grid .project-body-container .project-body .two-col-img-wrapper img {
     width: 100%;
+  }
+  .grid .project-body-container .project-body .content-wrapper {
+    width: 100%;
+  }
+  .grid .project-body-container .project-body .content-wrapper ul {
+    display: grid;
+    gap: 0.5rem;
+  }
+  .grid .project-body-container .project-body .content-wrapper ul li {
+    font-size: 1.25rem;
   }
   .grid__main {
     display: flex;
