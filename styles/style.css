@@ -211,6 +211,15 @@ ul {
     display: grid;
     justify-content: start;
   }
+  .grid .project-body-container .project-body .two-col-img-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 5rem 0;
+  }
+  .grid .project-body-container .project-body .two-col-img-wrapper img {
+    width: 100%;
+  }
   .grid__main {
     display: flex;
     flex-direction: column-reverse;
