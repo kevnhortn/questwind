@@ -115,6 +115,7 @@ ul {
     flex-direction: column;
     width: 100%;
     position: relative;
+    align-self: center;
   }
   .grid .top-element-wrapper {
     display: flex;
@@ -457,6 +458,17 @@ ul {
   }
   .inner-wrapper .two-col-img-wrapper {
     gap: 2.5rem !important;
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .inner-wrapper .two-col-img-wrapper img {
+    -o-object-fit: cover !important;
+       object-fit: cover !important;
+    -o-object-position: center center;
+       object-position: center center;
+    width: 100%;
+    align-self: center;
+    height: 100%;
   }
   .grid__main {
     display: grid;
