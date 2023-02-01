@@ -122,7 +122,7 @@ ul {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: 2.5rem 1.25rem 0;
+    padding: 2.5rem 0 0;
   }
   .grid .top-element-wrapper .logo,
 .grid .top-element-wrapper .hamburger-icon {
@@ -133,25 +133,8 @@ ul {
 .grid .top-element-wrapper .hamburger-icon:hover {
     cursor: pointer;
   }
-  .grid .project-nav-container {
-    width: 100%;
-    display: grid;
-    position: relative;
-    padding: 0 1.5rem;
-    align-items: center;
-    height: 6rem;
-    margin-bottom: 2rem;
-  }
-  .grid .project-nav-container .project-nav-wrapper {
-    display: flex;
-    justify-content: space-between;
-  }
-  .grid .project-nav-container .project-nav-wrapper .logo-word {
-    font-size: 1.5rem;
-    font-weight: 600;
-  }
-  .grid .project-nav-container .project-nav-wrapper .hamburger-icon {
-    width: 2rem;
+  .grid .project-nav {
+    padding: 2.5rem 1.5rem 0;
   }
   .grid .soft-txt {
     color: #8f8f8f;
@@ -443,6 +426,38 @@ ul {
   }
 }
 @media (min-width: 768px) {
+  .inner-wrapper {
+    max-width: 1600px;
+    padding: 0 5rem;
+  }
+  .inner-wrapper .project-nav {
+    width: 100%;
+    padding: 2.5rem 1.5rem 0 !important;
+    justify-self: space-evenly !important;
+    display: flex;
+    position: relative;
+  }
+  .inner-wrapper .project-header {
+    margin-bottom: 10rem;
+  }
+  .inner-wrapper .project-header .project-heading {
+    font-size: 4rem !important;
+  }
+  .inner-wrapper .two-column {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    margin-bottom: 2.5rem;
+  }
+  .inner-wrapper .two-column .soft-txt {
+    padding-bottom: 0 !important;
+  }
+  .inner-wrapper .two-column .underline {
+    justify-self: center;
+  }
+  .inner-wrapper .two-col-img-wrapper {
+    gap: 2.5rem !important;
+  }
   .grid__main {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
