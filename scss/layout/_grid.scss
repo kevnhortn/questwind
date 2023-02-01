@@ -387,8 +387,9 @@
 // Tablet styles
 @media (min-width: 768px) {
 	.inner-wrapper {
-		max-width: 1600px;
+		max-width: 1400px;
 		padding: 0 5rem;
+		align-self: center;
 
 		.project-nav {
 			width: 100%;
@@ -404,6 +405,10 @@
 			.project-heading {
 				font-size: 4rem !important;
 			}
+		}
+
+		.top-img {
+			padding-bottom: 2.5rem;
 		}
 
 		.two-column {
@@ -433,6 +438,10 @@
 				align-self: center;
 				height: 100%;
 			}
+		}
+
+		.content-wrapper {
+			padding-bottom: 2.5rem;
 		}
 	}
 
@@ -518,12 +527,15 @@
 
 	.project-footer-container {
 		.footer-wrapper {
-			max-width: 1600px;
+			max-width: 1400px !important;
 			padding: 5rem 6rem 2.5rem !important;
+			// align-self: center;
+			margin: 0 auto;
 
 			.top-footer-row {
 				flex-direction: row !important;
 				padding-bottom: 2.5rem;
+				justify-content: space-between;
 
 				.right {
 					align-items: end;
@@ -593,5 +605,26 @@
 	.sidebar-list,
 	.sb-social-list {
 		padding-left: 6rem;
+	}
+
+	.project-header {
+		display: grid !important;
+		grid-template-columns: repeat(2, 1fr);
+		max-width: 1400px;
+		margin: 0 auto;
+		gap: 10rem;
+		justify-content: space-between;
+	}
+
+	.bigger-subheading,
+	.two-column,
+	.btn-wrapper,
+	.content-wrapper {
+		max-width: 800px;
+		margin: 0 auto;
+	}
+
+	.two-col-img-wrapper {
+		margin: 8rem 0 5rem !important;
 	}
 }
