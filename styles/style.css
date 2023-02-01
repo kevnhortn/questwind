@@ -522,6 +522,26 @@ ul {
     color: rgb(130, 130, 130) !important;
     filter: opacity(0.75) !important;
   }
+  .project-footer-container .footer-wrapper {
+    max-width: 1600px;
+    padding: 5rem 6rem 2.5rem !important;
+  }
+  .project-footer-container .footer-wrapper .top-footer-row {
+    flex-direction: row !important;
+    padding-bottom: 2.5rem;
+  }
+  .project-footer-container .footer-wrapper .top-footer-row .right {
+    align-items: end;
+    justify-content: end;
+    margin-bottom: 0 !important;
+  }
+  .project-footer-container .footer-wrapper .bottom-footer-row {
+    flex-direction: row !important;
+    justify-content: space-between;
+  }
+  .project-footer-container .footer-wrapper .bottom-footer-row .footer-social-list {
+    align-items: end;
+  }
   .top-element-wrapper {
     padding: 2.5rem 2rem 0 !important;
   }

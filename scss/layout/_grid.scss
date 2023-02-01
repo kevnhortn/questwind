@@ -505,6 +505,33 @@
 		}
 	}
 
+	.project-footer-container {
+		.footer-wrapper {
+			max-width: 1600px;
+			padding: 5rem 6rem 2.5rem !important;
+
+			.top-footer-row {
+				flex-direction: row !important;
+				padding-bottom: 2.5rem;
+
+				.right {
+					align-items: end;
+					justify-content: end;
+					margin-bottom: 0 !important;
+				}
+			}
+
+			.bottom-footer-row {
+				flex-direction: row !important;
+				justify-content: space-between;
+
+				.footer-social-list {
+					align-items: end;
+				}
+			}
+		}
+	}
+
 	.top-element-wrapper {
 		padding: 2.5rem 2rem 0 !important;
 	}
