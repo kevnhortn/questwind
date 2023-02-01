@@ -138,6 +138,7 @@ ul {
     padding: 0 1.5rem;
     align-items: center;
     height: 6rem;
+    margin-bottom: 2rem;
   }
   .grid .project-nav-container .project-nav-wrapper {
     display: flex;
