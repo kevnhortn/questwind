@@ -58,7 +58,7 @@ const imgArr = [...projectImages];
 const listLinksArr = [...titleLinks];
 console.log(listLinksArr);
 
-projectNumEl.textContent = `3`;
+projectNumEl.textContent = `6`;
 projectTotal.textContent = ` / ${titleArr.length}`;
 
 // Listen for hover event on title items
@@ -74,7 +74,7 @@ for (let i = 0; i < titleArr.length; i++) {
 
 	// Hide the image after mouse leaves title items
 	function hideImage() {
-		projectNumEl.textContent = `3`;
+		projectNumEl.textContent = `6`;
 		imgArr[i].classList.remove("active-img");
 	}
 }
